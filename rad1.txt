@@ -1,0 +1,14 @@
+ def gcd(a, b):
+
+ while b != 0:
+
+a, b = b, a % b 
+return a 
+nums = [24, 36, 60]
+
+res = nums[1:]:
+
+ for i in nums[1:]:
+res = gcd(res, i)
+
+print(res)
